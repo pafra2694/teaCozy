@@ -1,0 +1,148 @@
+*{
+    color: seashell;
+}
+body{
+    background-color: black;
+    font-family: Helvetica;
+    font-size: 22px;    
+    text-align: center;
+}
+
+main{
+    opacity: 0.7;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    top:0;
+    min-height: 69px;
+    border-bottom: 1px solid rgb(255, 245, 238);
+    background-color: black;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+.banner-img{
+    position: relative;
+    float: left;
+    height: 50px;
+    padding: 9.5px 10px;
+    margin-left: 10px;
+} 
+
+ul{
+    margin-right: 10px;
+}
+
+li{
+    display: inline;
+    position: relative;
+    float: right;
+    padding: 10px 10px;
+    /* border: 1px solid red; */
+
+}
+
+a:link, a:visited{
+    color: seashell;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+a:active{
+    color: black;
+    opacity: 1; 
+}
+
+.banner{
+    background-image: url("../img/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    margin-top: 70px;
+    height: 700px;
+}
+
+.ourmission{
+    display: flex;
+    height: 700px;
+    align-items: center;
+}
+
+.mission{
+    width: 100%;
+    background-color: black;
+    color: seashell;
+    opacity: 1;
+}
+
+.teamonth{
+    margin-top: 120px;
+}
+
+.flex-tea{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-basis: 320px;
+}
+
+.tea img{
+    height: 200px;
+    width: 300px;
+    margin: 0 20px;
+    /* border-radius: 15px; */
+}
+
+.locations{
+    max-width: 70%;
+    margin: 120px auto;
+    background-image: url("../img/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    height: auto;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 15px;
+    overflow:hidden;
+}
+
+.locations h2 {
+    background-color: rgb(0, 0, 0,0.5);
+}
+.locations--container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.locations--city{
+    opacity: 1;
+    min-width: 300px;
+    height: 350px;
+    background-color: black;
+    margin: 20px 40px;
+    flex-shrink: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact{
+    height: 200px;
+}
+
+footer h5{
+    float: left;
+    margin-left: 15px;
+    opacity: 0.7;
+}
